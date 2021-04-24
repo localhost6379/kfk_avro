@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+input:
+  bootstrapServers: aliyun:9092
+  topic: user_topic_test
+  path: D:\\javaProject\\kfk_avro_demo\\input_kfk\\doc\\user.csv
+  #  path: D:/javaProject/kfk_avro_demo/input_kfk/doc/user.csv     # 两种路径写法都对
+  regex: ","                 # 匹配逗号
+  #  regex: "\\s{2,}"        # 匹配两个或两个以上的空格
+  #  regex: "\\t\\t"         # 匹配两个tab
+  #  regex: "\\t"            # 匹配一个tab
+
+

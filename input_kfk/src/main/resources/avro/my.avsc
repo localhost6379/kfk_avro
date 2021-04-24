@@ -1,0 +1,12 @@
+[
+    {"namespace": "cn.king.entry.avro.generated",
+     "type": "record",
+     "name": "User",
+     "doc": "用户",
+     "fields": [
+         {"name": "id", "type": "long", "doc": "用户编号", "default": 0},
+         {"name": "username", "type": "string", "doc": "用户名", "default": ""},
+         {"name": "age", "type": "int", "doc": "年龄" , "default": 0}
+      ]
+    }
+]
